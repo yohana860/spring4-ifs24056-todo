@@ -11,10 +11,5 @@ public class HomeController {
     public String hello() {
         return "Hay Abdullah, selamat datang di pengembangan aplikasi dengan Spring Boot!";
     }
-
-    @GetMapping("/hello/{name}")
-    public String sayHello(@RequestParam String name) {
-        return "Hello, " + name + "!";
-    }
-
+    
 }
