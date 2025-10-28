@@ -23,7 +23,7 @@ jobs:
     - name: Run tests with coverage
       run: |
         chmod +x mvnw
-        ./mvnw clean test jacoco:report
+        ./mvnw clean test jacoco:check
         
     - name: Upload test report
       uses: actions/upload-artifact@v4
