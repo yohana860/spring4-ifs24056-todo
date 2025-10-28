@@ -2,7 +2,6 @@ package org.delcom.starter.controllers;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.bind.annotation.RequestParam;
 
 @RestController
 public class HomeController {
@@ -11,5 +10,5 @@ public class HomeController {
     public String hello() {
         return "Hay Abdullah, selamat datang di pengembangan aplikasi dengan Spring Boot!";
     }
-    
+
 }
